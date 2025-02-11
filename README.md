@@ -2,7 +2,6 @@
 
 💻 **Full Stack Software Developer**  
 🌍 **Based in São Bento do Sul**  
-🔭 Currently working on: Best, Robotic-Process-Automation and Standalone-Wallet. 
 
 ---
 
