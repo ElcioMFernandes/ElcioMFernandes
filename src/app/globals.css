@@ -2,20 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes text-shadow-pop-tr {
+  0% {
+    text-shadow: 0 0 #b4b4b4, 0 0 #b4b4b4, 0 0 #b4b4b4, 0 0 #b4b4b4;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    text-shadow: -1px -1px #b4b4b4, -2px -2px #b4b4b4, -3px -3px #b4b4b4,
+      -4px -4px #b4b4b4;
+    transform: translateX(4px) translateY(4px);
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.text-shadow-pop-tr {
+  animation: text-shadow-pop-tr 0.6s both;
+}
+
+@keyframes box-shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 #b4b4b4, 0 0 #b4b4b4, 0 0 #b4b4b4, 0 0 #b4b4b4;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: -1px -1px #b4b4b4, -2px -2px #b4b4b4, -3px -3px #b4b4b4,
+      -4px -4px #b4b4b4;
+    transform: translateX(4px) translateY(4px);
+  }
+}
+
+.hover\:box-shadow-pop-tr:hover {
+  animation: box-shadow-pop-tr 0.6s both;
 }
