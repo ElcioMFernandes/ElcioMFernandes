@@ -9,6 +9,7 @@
 ## 🚀 Tech Stack
 
 ### Languages & Frameworks
+
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="ts" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="js" width="40" height="40"/>
@@ -20,6 +21,7 @@
 </p>
 
 ### Backend & Others
+
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="node" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="40" height="40"/>
@@ -34,28 +36,37 @@
 ---
 
 ## 🏆 GitHub Trophies
+
 [![Trophy](https://github-profile-trophy.vercel.app/?username=ElcioMFernandes&theme=radical&margin-w=10&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 ---
 
 ## 🔥 GitHub Streak Stats
+
 [![GitHub Streak](https://streak-stats.demolab.com/?user=ElcioMFernandes&theme=radical&hide_border=true)](https://git.io/streak-stats)
 
 ---
 
 ## 📊 GitHub Activity Graph
+
 [![Elcio's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ElcioMFernandes&theme=radical)](https://github.com/Ashutosh00710/github-readme-activity-graph)
 
 ---
 
 ## 🧮 GitHub Summary Stats
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ElcioMFernandes&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ElcioMFernandes&layout=compact&theme=radical)
 
 ---
 
-## 🐍 Contribution Snake Animation
-![snake gif](https://github.com/ElcioMFernandes/ElcioMFernandes/blob/output/github-contribution-grid-snake.svg)
+## 🐍 Snake Contribution Graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ElcioMFernandes/ElcioMFernandes/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ElcioMFernandes/ElcioMFernandes/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/ElcioMFernandes/ElcioMFernandes/output/github-contribution-grid-snake.svg" />
+</picture>
 
 ---
 
