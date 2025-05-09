@@ -35,31 +35,6 @@
 
 ---
 
-## 🏆 GitHub Trophies
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=ElcioMFernandes&theme=radical&margin-w=10&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
----
-
-## 🔥 GitHub Streak Stats
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=ElcioMFernandes&theme=radical&hide_border=true)](https://git.io/streak-stats)
-
----
-
-## 📊 GitHub Activity Graph
-
-[![Elcio's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ElcioMFernandes&theme=radical)](https://github.com/Ashutosh00710/github-readme-activity-graph)
-
----
-
-## 🧮 GitHub Summary Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ElcioMFernandes&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ElcioMFernandes&layout=compact&theme=radical)
-
----
-
 ## 🐍 Snake Contribution Graph
 
 <picture>
