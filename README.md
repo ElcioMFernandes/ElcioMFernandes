@@ -32,19 +32,3 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
 </p>
-
----
-
-## 🐍 Snake Contribution Graph
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ElcioMFernandes/ElcioMFernandes/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ElcioMFernandes/ElcioMFernandes/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/ElcioMFernandes/ElcioMFernandes/output/github-contribution-grid-snake.svg" />
-</picture>
-
----
-
-## 🌐 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elcio-mateus-fernandes/)
