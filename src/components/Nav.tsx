@@ -2,15 +2,16 @@ import { TbCode } from "react-icons/tb";
 
 export const Nav = () => {
   return (
-    <nav className="w-full flex flex-row items-center justify-between flex-shrink-0 p-4 select-none">
+    <nav className="w-full flex flex-row items-center justify-between flex-shrink-0 select-none p-6">
       <a
+        rel="noopener noreferrer"
         href="https://github.com/ElcioMFernandes/ElcioMFernandes"
         target="_blank"
         className="cursor-none"
       >
         <TbCode className="w-6 h-6" />
       </a>
-      <ul className="flex flex-row items-center justify-between gap-4 bg-red-500 sm:bg-blue-500 md:bg-green-500 lg:bg-yellow-500 xl:bg-purple-500 2xl:bg-teal-500">
+      <ul className="hidden sm:flex flex-row items-center justify-between gap-4">
         <li>
           <a href="#home" className="cursor-none">
             Home
