@@ -29,7 +29,6 @@ export const stack = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
     reference: "https://www.javascript.com/",
   },
-
   {
     stackname: "Node.js",
     stackicon:
@@ -71,5 +70,17 @@ export const stack = [
     stackicon:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
     reference: "https://www.docker.com/",
+  },
+  {
+    stackname: "PostgreSQL",
+    stackicon:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+    reference: "https://www.postgresql.org/",
+  },
+  {
+    stackname: "Redis",
+    stackicon:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
+    reference: "https://redis.io/",
   },
 ];
