@@ -1,4 +1,5 @@
 import { TbCode } from "react-icons/tb";
+import { AnimatedThemeToggler } from "./AnimatedThemeToggler";
 
 export const Nav = () => {
   return (
@@ -11,28 +12,31 @@ export const Nav = () => {
       >
         <TbCode className="w-6 h-6" />
       </a>
-      <ul className="hidden sm:flex flex-row items-center justify-between gap-4">
-        <li>
-          <a href="#home" className="cursor-none">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#about" className="cursor-none">
-            About
-          </a>
-        </li>
-        <li>
-          <a href="#projects" className="cursor-none">
-            Projects
-          </a>
-        </li>
-        <li>
-          <a href="#contact" className="cursor-none">
-            Contact
-          </a>
-        </li>
-      </ul>
+      <div className="flex flex-row items-center justify-between gap-4">
+        <ul className="hidden sm:flex flex-row items-center justify-between gap-4">
+          <li>
+            <a href="#home" className="cursor-none">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#about" className="cursor-none">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#projects" className="cursor-none">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="cursor-none">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <AnimatedThemeToggler className="cursor-none" />
+      </div>
     </nav>
   );
 };
