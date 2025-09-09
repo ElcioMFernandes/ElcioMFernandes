@@ -23,7 +23,7 @@ export const Projects = () => {
   return (
     <div className="p-8 md:p-12 lg:p-20 flex flex-col h-full">
       <h2 className="text-3xl font-bold select-none mb-8 sm:text-4xl md:text-5xl">
-        My Projects
+        My Projects and Contributions
       </h2>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 flex-grow content-start">
         {loading

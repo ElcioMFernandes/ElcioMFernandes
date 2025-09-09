@@ -1,5 +1,5 @@
 import { stack } from "@/constants/stack";
-import { Marquee } from "@/components/Marquee";
+import { Button, Marquee } from "@/components";
 
 export const Home = () => {
   return (
@@ -8,7 +8,7 @@ export const Home = () => {
         <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl select-none">
           Hi, i'm Élcio Mateus Fernandes
         </h1>
-        <p className="mt-4 text-md text-neutral-600 dark:text-neutral-400 md:text-lg">
+        <p className="mt-2 text-md text-neutral-600 dark:text-neutral-400 md:text-lg">
           I'm a FullStack Developer with three years of experience in web
           development.
         </p>
@@ -16,9 +16,11 @@ export const Home = () => {
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/elcio-mateus-fernandes/"
           target="_blank"
-          className="self-center lg:self-start mt-6 px-6 py-3 rounded-full shadow bg-zinc-900 hover:bg-zinc-950 text-zinc-200 hover:text-zinc-100 transition-all duration-300 ease-in-out cursor-none select-none"
+          className="mt-6 cursor-none select-none"
         >
-          Connect with me
+          <Button size="lg" className="self-center cursor-none select-none">
+            Connect with me
+          </Button>
         </a>
       </div>
       <div className="flex w-full flex-col items-center justify-center p-8 md:p-12 lg:w-auto lg:flex-[3] lg:p-20">
