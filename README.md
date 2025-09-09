@@ -1,69 +1,46 @@
-# React + TypeScript + Vite
+# 👋 Olá, eu sou Élcio Mateus Fernandes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Desenvolvedor Full Stack**
+<br>
+_São Bento do Sul, SC &nbsp;|&nbsp; [elcio.dev](https://elcio.dev)_
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Sobre mim
 
-## Expanding the ESLint configuration
+Sou dev full stack com foco em Node.js, TypeScript e React. Trabalho com desenvolvimento web, microsserviços, APIs RESTful e integrações modernas usando Docker, Redis, PostgreSQL, Kafka e outras tecnologias do ecossistema JavaScript/Python. Valorizo bons testes, código limpo, documentação objetiva e colaboração em times ágeis.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🧑‍💻 Principais stacks
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **Node.js · TypeScript · React · Express**
+- **Docker · Redis · PostgreSQL · MongoDB**
+- **Jest · TailwindCSS · Vite · FastAPI**
+- **Git · GitHub CI/CD · SWR · Axios · Kafka**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🌐 Portfólio Online
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+👉 [elcio.dev](https://elcio.dev) — Meu portfólio completo, com projetos, experiências, contato e mais.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 📚 Projetos em destaque
+
+- [cryptochronicler](https://github.com/ElcioMFernandes/cryptochronicler) — Plataforma de coleta e análise de trades de criptomoedas em tempo real.
+- [readicts](https://github.com/ElcioMFernandes/readicts) — Visualizador de dados Redis full stack (Vue.js + Express + Docker).
+- [qrcode](https://github.com/ElcioMFernandes/qrcode) — Leitor e monitor de QR Codes em tempo real (FastAPI + React).
+
+Veja outros projetos no meu [GitHub](https://github.com/ElcioMFernandes?tab=repositories).
+
+---
+
+## 📬 Contato e redes
+
+- [LinkedIn](https://www.linkedin.com/in/elcio-mateus-fernandes/)
+
+---
+
+<!-- (Opcional) Badges / Visitors / etc. -->
