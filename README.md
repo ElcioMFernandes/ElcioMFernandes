@@ -9,9 +9,7 @@ _São Bento do Sul, SC · [elcio.dev](https://elcio.dev)_
 
 I'm a full stack developer focused on Node.js, TypeScript, and React. Experienced with web development, microservices, RESTful APIs, and modern integrations using Docker, Redis, PostgreSQL, Kafka, and other tools in the JavaScript/Python ecosystem. I value automated testing, clean code, clear documentation, and agile teamwork.
 
----
-
-## 🧑‍💻 Main Stack
+</br>
 
 <p align="left">
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
