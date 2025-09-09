@@ -11,7 +11,7 @@ export const useRepositories = ({ page }: { page: number }) => {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://api.github.com/users/ElcioMFernandes/repos?sort=updated&direction=desc&per_page=9&page=${page}`
+        `https://api.github.com/users/ElcioMFernandes/repos?sort=updated&direction=desc&per_page=3&page=${page}`
       );
       if (!response.ok) {
         throw new Error("Failed to fetch repositories");
