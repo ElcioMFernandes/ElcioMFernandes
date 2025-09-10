@@ -15,7 +15,7 @@ export const About = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % abouts.length);
-    }, 15000);
+    }, 20000);
 
     return () => clearInterval(interval);
   }, [abouts.length]);
