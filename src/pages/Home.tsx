@@ -4,7 +4,7 @@ import { Button, Marquee } from "@/components";
 export const Home = () => {
   return (
     <div className="h-full flex flex-col items-center justify-center lg:flex-row">
-      <div className="flex w-full flex-col p-8 text-center md:p-12 lg:w-auto lg:flex-[2] lg:p-20 lg:text-left">
+      <div className="flex flex-col p-8 text-left md:p-12 lg:w-auto lg:flex-2 lg:p-20 lg:text-left">
         <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl select-none">
           Hi, i'm Élcio Mateus Fernandes
         </h1>
@@ -23,7 +23,7 @@ export const Home = () => {
           </Button>
         </a>
       </div>
-      <div className="flex w-full flex-col items-center justify-center p-8 md:p-12 lg:w-auto lg:flex-[3] lg:p-20">
+      <div className="flex w-full flex-col items-center justify-center p-8 md:p-12 lg:w-auto lg:flex-[1] lg:p-20">
         <img
           src="/images/me.jpeg"
           alt="Photo by Élcio"
