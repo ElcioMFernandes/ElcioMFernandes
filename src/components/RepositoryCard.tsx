@@ -12,7 +12,7 @@ export const RepositoryCard = ({ repo }: RepositoryCardProps) => {
       href={repo.html_url}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex h-full cursor-pointer flex-col justify-between rounded-lg border border-neutral-200 bg-white p-6 shadow-md transition-transform hover:scale-101 dark:border-neutral-800 dark:bg-neutral-900"
+      className="flex h-full cursor-none flex-col justify-between rounded-lg border border-neutral-200 bg-white p-6 shadow-md transition-transform hover:scale-101 dark:border-neutral-800 dark:bg-neutral-900"
     >
       <div>
         <h3 className="text-xl font-bold text-primary">{repo.name}</h3>
