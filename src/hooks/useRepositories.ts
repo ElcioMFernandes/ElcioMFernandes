@@ -1,17 +1,25 @@
 import * as React from "react";
 import type { Repository } from "@/types/repository";
+import { useScreenSize } from "./useScreenSize";
 
 export const useRepositories = ({ page }: { page: number }) => {
   const [data, setData] = React.useState<Repository[]>([]);
   const [error, setError] = React.useState<Error | null>(null);
   const [total, setTotal] = React.useState(1);
   const [loading, setLoading] = React.useState(true);
+  const screenSize = useScreenSize();
 
-  async function request(page: number) {
+  const perPage = React.useMemo(() => {
+    if (screenSize === "sm") return 1;
+    if (screenSize === "md") return 2;
+    return 3;
+  }, [screenSize]);
+
+  async function request(page: number, perPage: number) {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://api.github.com/users/ElcioMFernandes/repos?sort=updated&direction=desc&per_page=3&page=${page}`
+        `https://api.github.com/users/ElcioMFernandes/repos?sort=updated&direction=desc&per_page=${perPage}&page=${page}`
       );
       if (!response.ok) {
         throw new Error("Failed to fetch repositories");
@@ -45,7 +53,14 @@ export const useRepositories = ({ page }: { page: number }) => {
         return;
       }
 
-      setData(await response.json());
+      const repos = await response.json();
+      // Add language badges to each repository
+      const reposWithBadges = repos.map((repo: Repository) => ({
+        ...repo,
+        languages: repo.language ? [repo.language] : [],
+      }));
+
+      setData(reposWithBadges);
     } catch (error) {
       if (error instanceof Error) {
         setError(error);
@@ -56,8 +71,8 @@ export const useRepositories = ({ page }: { page: number }) => {
   }
 
   React.useEffect(() => {
-    request(page);
-  }, [page]);
+    request(page, perPage);
+  }, [page, perPage]);
 
-  return { data, error, loading, total };
+  return { data, error, loading, total, perPage };
 };
