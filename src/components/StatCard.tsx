@@ -1,5 +1,5 @@
 import { type LucideIcon } from "lucide-react";
-import { NumberTicker } from "./magicui/number-ticker";
+import { NumberTicker } from "./NumberTicker";
 
 interface StatCardProps {
   Icon: LucideIcon;
