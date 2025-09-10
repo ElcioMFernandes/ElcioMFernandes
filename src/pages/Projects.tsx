@@ -73,7 +73,7 @@ export const Projects = () => {
           : data.map((repo) => <RepositoryCard key={repo.id} repo={repo} />)}
       </div>
       {total > 1 && (
-        <Pagination className="mt-4 sm:mt-8">
+        <Pagination className="mt-1 sm:mt-6">
           <PaginationContent>
             <PaginationItem>
               <PaginationPrevious
