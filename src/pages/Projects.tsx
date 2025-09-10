@@ -65,7 +65,7 @@ export const Projects = () => {
         My Projects and Contributions
       </h2>
       <GithubStats />
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 flex-grow content-start">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 content-start">
         {loading
           ? Array.from({ length: perPage }).map((_, index) => (
               <RepositoryCardSkeleton key={index} />
@@ -73,7 +73,7 @@ export const Projects = () => {
           : data.map((repo) => <RepositoryCard key={repo.id} repo={repo} />)}
       </div>
       {total > 1 && (
-        <Pagination className="mt-1 sm:mt-6">
+        <Pagination className="mt-4 sm:mt-8">
           <PaginationContent>
             <PaginationItem>
               <PaginationPrevious
