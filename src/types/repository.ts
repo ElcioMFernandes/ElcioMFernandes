@@ -1,9 +1,10 @@
 export interface Repository {
   id: number;
-  name: string;
   html_url: string;
-  language: string | null;
-  forks_count: number;
+  name: string;
   description: string | null;
+  language: string | null;
   stargazers_count: number;
+  forks_count: number;
+  topics: string[];
 }
